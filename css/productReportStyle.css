@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* CSS Document */
+.terms{padding-left: 10px; padding-right:10px; padding-top:10px;}
+.terms h5{font-size:75%}
+.terms p{font-size:75%; text-align:justify;}
+
+.copyright{padding-left:10px; padding-right:10px;}
+.copyright p{font-size:75%; text-align:center;}
+
+.logoHeader {vertical-align:text-bottom;}
+.ui-listview-filter{margin: 10px 0px 10px 0px;}
+.ui-footer{margin-top: -10px}
+.ui-page{padding-bottom: 0px !important;}
+a{font-size:75%; white-space:normal !important}
+.headerDiv {
+	text-align: center;
+	vertical-align: middle;
+	white-space: normal;
+}
+.ui-li-has-thumb .ui-btn-inner {
+    min-height: 30px;
+}
+
+/*styling for footer icons*/
+.nav-glyphish .ui-btn .ui-btn-inner { padding-top: 35px !important; }
+.nav-glyphish .ui-btn .ui-icon { width: 30px!important; height: 25px!important; margin-left: -15px !important; box-shadow: none!important; -moz-box-shadow: none!important; -webkit-box-shadow: none!important; -webkit-border-radius: 0 !important; border-radius: 0 !important; }
+#home .ui-icon { background:  url(glyphish-icons/53-house.png) 50% 50% no-repeat; background-size: 24px 22px; }
+#email .ui-icon { background:  url(glyphish-icons/18-envelope.png) 50% 50% no-repeat; background-size: 24px 16px;  }
+#phone .ui-icon { background:  url(glyphish-icons/75-phone.png) 50% 50% no-repeat;  background-size:24px 24px; }
+

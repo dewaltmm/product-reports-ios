@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+                <meta charset="utf-8">
+            <title>APA Product Reports</title>
+            
+            <!--<link rel="stylesheet" type="text/css" href="css/jquery.mobile.structure-1.0.min.css"/>-->
+            <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0-alpha.1/jquery.mobile-1.2.0-alpha.1.min.css" />
+            <link rel="stylesheet" type="text/css" href="css/productReportStyle.css"/>
+            <link rel="stylesheet" type="text/css" href="css/themes/custom-theme.min.css"/>
+            
+            <script src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
+            <script src="http://code.jquery.com/mobile/1.2.0-alpha.1/jquery.mobile-1.2.0-alpha.1.min.js"></script>
+            <script src="cordova-2.1.0.js" type="text/javascript"></script>
+            <script type="text/javascript"charset="utf-8"src="ChildBrowser.js"></script>
+            <script src="js/engine.js" type="text/javascript"></script>
+            
+    </head>
+    <body onLoad="onBodyLoad()">
+        
+        <div data-role="page">
+            
+            <div data-role="header"><!--data-position="fixed"-->
+                <div class="headerDiv" ><p>
+                    <img class="logoHeader" src="img/headerAPAlogo.png"/>
+                    PRODUCT REPORTS®</p></div>
+            </div><!-- /header -->
+            
+            <div id="link-list-container">
+                There was an error loading APA Product Reports.<br> A connection to the internet is required, please exit the app and try again.</div>
+            
+            <div data-role="collapsible" data-mini="true" class="terms"  data-content-theme="c">
+                <h6>Terms of Use</h6> <p> <strong>Disclaimer: </strong>APA Product Report© is a trademark of <em>APA - The Engineered Wood Association</em>, Tacoma, Washington. The information contained herein is based on product evaluations in accordance with the references noted in these reports. Neither APA, nor its members make any warranty, expressed or implied, or assume any legal liability or responsibility for the use, application of, and/or reference to opinions, findings, conclusions, or recommendations included in these reports. Consult your local jurisdiction or design professional to assure compliance with code, construction and performance requirements. Because APA has no control over quality of workmanship or the conditions under which engineered wood products are used, it cannot accept responsibility for product performance or designs as actually constructed. </p></div>
+            <div class="copyright"><p>© 2012 APA - The Engineered Wood Association. All Rights Reserved.</p></div>
+            
+            
+            
+            <div id="filler"><br><br><br><br></div>
+            
+            <!--------------------------------------FOOTER----------------------------------------------->
+            <div data-role="footer" data-position="fixed" class="nav-glyphish">
+                <div class = "ui-body-c">
+                    <div data-role="navbar" class="nav-glyphish">
+                        <ul>
+                            <li><a href="tel:2536207400" data-role="button" id="phone" data-icon="custom">Call APA</a></li>
+                            
+                            <li><a href="#" id="home" data-icon="custom" data-role="button" rel="external" onclick="cb.showWebPage('http://www.apawood.org');">APA Home</a></li>
+                            
+                            <li><a href="#" rel="external" id="email" data-icon="custom" onClick="cb.showWebPage('http://www.apawood.org/mobileContact.cfm');">Contact</a></li>
+                        </ul>
+                    </div><!-- end navbar div-->
+                </div>
+            </div> <!----END FOOTER-->
+        </div><!-- /content -->
+        </div><!-- /page -->
+        
+    </body>
+</html>
+
